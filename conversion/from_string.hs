@@ -1,6 +1,5 @@
 
 
-
 stringToInt :: String -> Int
 stringToInt s = read s :: Int
 
@@ -15,9 +14,6 @@ stringToDouble s = read s :: Double
 
 stringToRational:: String -> Rational
 stringToRational s = toRational ( read s :: Float )
-
-
-
 
 
 main :: IO ()
